@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#bg {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(318deg, rgba(26, 59, 57, 1) 0%, rgb(66, 152, 147) 100%);
+  }
