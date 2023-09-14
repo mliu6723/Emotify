@@ -95,47 +95,6 @@ function PlaylistGenerator ({token}){
             console.log(e.message);
           });
         };
-/*
-    const fetchSongs = async () => {
-        const prompt = `Pretend you have great taste in music.
-        You are an assistant that only responds in JSON. 
-        Create a list of ${length} unique songs based off the following 
-        statement: "${inputValue}". Include "id", "title", "artist", "album" 
-        in your response. An example response is: "
-        [
-            {
-                "id": 1,
-                "title": "Hey Jude",
-                "artist": "The Beatles",
-                "album": "The Beatles (White Album)",
-                "duration": "4:56"
-            }
-        ]".`;
-        console.log("Hello");
-        const openai = new OpenAI({
-            apiKey: "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", dangerouslyAllowBrowser: true 
-        });
-    
-        const chatCompletion = await openai.chat.completions.create({
-            model: "gpt-3.5-turbo",
-            messages: [{ role: "user", content: `${prompt}` }],
-        })
-        .then((response) => {
-            setLoaded(true)
-            setLoading(false);
-            
-            const songs = JSON.parse(response.data.choices[0].text);
-            setSongs(songs)
-        });
-        .catch((e) => {
-            setLoading(false);
-            setInputValue("No songs found");
-        });
-        
-    setClicked(true);
-  };
-*/
-
 
 return(
     <div>
