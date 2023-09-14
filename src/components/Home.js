@@ -40,7 +40,7 @@ function App (){
 
     const spotifyLogin = () => {
         const authEndpoint = "https://accounts.spotify.com/authorize";
-        const clientId = "48ab47c8798443119692d9221163020e";
+        const clientId = "process.env.REACT_APP_SPOTIFY_API_KEY";
         const redirectUri = "http://localhost:3000";
         const scopes = ['playlist-modify-public'];
         const url =  `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`;
