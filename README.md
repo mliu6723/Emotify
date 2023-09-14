@@ -1,6 +1,6 @@
 # Emotify
 
-This project was created using ReactJS, HTML and CSS in addition to utilizing the Spotify and OpenAI APIs. Please note that since OpenAI has terminated its free trials, Emotify development has been paused. Emotify takes a prompt from users and generates a custom Spotify playlist utilizing AI based on the given prompt.
+This project was created using ReactJS, HTML and CSS in addition to utilizing the Spotify and OpenAI APIs. **Please note that since OpenAI has terminated its free trials, Emotify development has been paused.** Emotify takes a prompt from users and generates a custom Spotify playlist utilizing AI based on the given prompt.
 
 # Summary
 
