@@ -4,8 +4,8 @@ import axios from "axios";
 function createPlaylist({ playlistArray }) {
   const access_token = window.localStorage.getItem("token");
   const user_id = window.localStorage.getItem("user_id");
-  const playlist_name = "New Spotify AI Playlist";
-  const playlist_description = "Some groovy songs found with the help of AI";
+  const playlist_name = "New Emotify Playlist";
+  const playlist_description = "Customly curated playlist found with the help of AI";
 
   axios
     .post(
