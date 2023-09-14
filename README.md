@@ -12,4 +12,6 @@ Emotify users input a specific theme which OpenAI then utilizes to generate a cu
 
 # Screenshot
 
+<img src= "src/assets/EmotifyHome.png" width=150/>
+
 
